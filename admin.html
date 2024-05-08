@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"> 
+            <img src="Assets\Logos.png">
+        </div>
+            <ul class="menu">
+                <li class="active">
+                    <a href="#">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span> Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="users.html">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span> Users </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="adminproduct.html">
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        <span> Products </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="home.html">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        <span> Logout</span>
+                    </a>
+                </li>
+            </ul>
+    </div>
+
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span> Primary</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user--info">
+                <h3> Gerald Lloyd</h3>
+                <img src="Assets\Profile.jpg" alt="Image"/>
+            </div>
+        </div>
+        <div class="card--container">
+            <h3 class="main--title">Today's Data</h3>
+            <div class="card--wrapper">
+                <div class="payment--card light-red">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">Income</span>
+                            <span class="amount-value">₱72819.00</span>
+                        </div>
+                        <i class="fas fa-dollar-sign icon"></i>
+                    </div>
+                </div>
+
+                <div class="payment--card light-purple">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">Preparing</span>
+                            <span class="amount-value">46 order/s</span>
+                        </div>
+                        <i class="fas fa-box icon dark-purple"></i>
+                    </div>
+                </div>
+                
+                <div class="payment--card light-green">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">To Ship</span>
+                            <span class="amount-value">19 order/s</span>
+                        </div>
+                        <i class="fas fa-paper-plane icon dark-green"></i>
+                    </div>
+                </div>
+
+                <div class="payment--card light-blue">
+                    <div class="card--header">
+                        <div class="amount">
+                            <span class="title">To Receive</span>
+                            <span class="amount-value">12 order/s</span>
+                        </div>
+                        <i class="fas fa-truck icon dark-blue"></i>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="tabular--wrapper">
+            <div class="row">
+                <div class="column">
+                    <h3>Yearly Sales</h3>
+                    <img src="Assets\Line graph.jpg" alt="Linegraph">
+                </div>
+                <div class="column">
+                    <h3>Yearly Revenue</h3>
+                    <img src="Assets\Line graph.jpg" alt="Linegraph">
+                </div>
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="adminproduct.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo"> 
+            <img src="Assets\Logos.png">
+        </div>
+            <ul class="menu">
+                
+                <li>
+                    <a href="admin.html">
+                        <i class="fas fa-tachometer-alt"></i>
+                        <span> Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="users.html">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <span> Users </span>
+                    </a>
+                </li>
+                <li  class="active">
+                    <a href="home.html">
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                        <span> Products </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="home.html">
+                        <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        <span> Logout</span>
+                    </a>
+                </li>
+            </ul>
+    </div>
+
+    <div class="main--content">
+        <div class="header--wrapper">
+            <div class="header--title">
+                <span> Products</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user--info">
+                <h3> Gerald Lloyd</h3>
+                <img src="Assets\Profile.jpg" alt="Image"/>
+            </div>
+        </div>
+        <div class="card--container">
+            <div class="card--wrapper">
+                <div class="payment--card light-red">
+                    <img src="Assets\Crochet.jpg">
+                    <span> Rose Crochet</span>
+                    <span>200 Pesos</span>
+                </div>
+
+                <div class="payment--card light-purple">
+                    <img src="Assets\Sunflower Rose.jpg">
+                    <span> Rose Crochet</span>
+                    <span>200 Pesos</span>
+                </div>
+
+                <div class="payment--card light-green">
+                    <img src="Assets\Tulip fmn.jpg">
+                    <span> Rose Crochet</span>
+                    <span>200 Pesos</span>
+                </div>
+
+                <div class="payment--card light-blue">
+                    <img src="Assets\Tulip Rose.jpg">
+                    <span> Rose Crochet</span>
+                    <span>200 Pesos</span>
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="tabular--wrapper">
+            <h3 class="main--title">Products</h3> 
+            <button class="btn">Add Products</button>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Product</th>
+                            <th>Description</th>
+                            <th>Price</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                        <tbody>
+                            <tr>
+                                <td>Rose Crohcet</td>
+                                <td>3 Rose</td>
+                                <td>₱200.00</td>
+                                <td>Active</td>
+                                <td><button>Edit</button></td>
+                            </tr>
+                            <tr>
+                                <td>Sunflower Tulip Crohcet</td>
+                                <td>1 Sunflower and Tulip</td>
+                                <td>₱250.00</td>
+                                <td>Active</td>
+                                <td><button>Edit</button></td>
+                            </tr>
+                            <tr>
+                                <td>Tulip fmn</td>
+                                <td>1 tulip and 10pcs fmn</td>
+                                <td>₱330.00</td>
+                                <td>Active</td>
+                                <td><button>Edit</button></td>
+                            </tr>
+                            <tr>
+                                <td>Tulip Rose Crochet</td>
+                                <td>1 Tulip 2 Rose</td>
+                                <td>₱340.00</td>
+                                <td>Active</td>
+                                <td><button>Edit</button></td>
+                            </tr>
+                        </tbody>
+                    </thead>
+                </table>
+                <br>
+        </div>
+    </div>
+</body>
+</html>
